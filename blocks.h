@@ -3,7 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/  /*Post String*/	/*Update Interval*/	/*Update Signal*/
     {" ", "~/scripts/i3_archUpdates", " ", 0, 11},
 
-    {" ", "INTERFACE=wlp5s0;export INTERFACE;~/scripts/i3_wifi", " ", 10, 0},
+    {" ", "~/scripts/internet", " ", 10, 0},
 	
 	{"  ", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g", " ", 30, 0},
 
